@@ -3,7 +3,7 @@
 A TypeScript implementation of Domain-Driven Design (DDD) and the Observer Pattern,
 using a gym membership system as the domain.
 
-## APP Structure
+## Project Structure
 DDD-observer/
 ├── docs/
 │   └── domain.md
