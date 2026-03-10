@@ -1,7 +1,7 @@
 import { createMember, checkIn, suspendMember, cancelMembership, subscribe } from "./src/domain/product/factories"
 import { emailObserver } from "./src/infrastructure/observers/emails"
 import { databaseObserver, trainerObserver, loggerObserver } from "./src/infrastructure/observers/database"
-
+// Gym Membership Domain - Kelyan
 // -- Test 1: Create valid member --
 console.log("\n-- Test 1: Create valid member --")
 let member = createMember("Kelyan", "kelyan@gym.com", 49.99, 10)
